@@ -13,7 +13,10 @@ void setup()
   pinMode(RED, OUTPUT);
   pinMode(RGB_SOURCE, OUTPUT);
 
+  
   digitalWrite(RGB_SOURCE, HIGH);
+  digitalWrite(RED, HIGH);
+  digitalWrite(GREEN, HIGH);
   Serial.begin(9600);
   
 }
